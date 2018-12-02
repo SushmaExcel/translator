@@ -1,0 +1,155 @@
+
+body {
+	/*background-image: url("6.jpg");*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%
+}
+
+.nav-bar{
+    position: relative;
+    left: 15%;
+    width: 100%;
+}
+
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 100%;
+}
+
+.left, .right {
+    width: 30%;
+}
+
+.middle {
+    width: 40%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	width: 528px;
+	
+}
+
+li {
+    float: left;
+}
+
+li a.one {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #5D5C61;
+	width: 100px;
+}
+li a.two {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #379683;
+	width: 100px;
+}
+li a.three {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #7395AE;
+	width: 100px;
+}
+li a.four {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #B1A296;
+	width: 100px;
+}
+li a.one:hover {
+    background-color: #ccd9ff;
+	color: black;
+}
+li a.two:hover {
+    background-color: #ccd9ff;
+	color: black;
+}
+li a.three:hover {
+    background-color: #ccd9ff;
+	color: black;
+}
+li a.four:hover {
+    background-color: #ccd9ff;
+	color: black;
+}
+.container{
+	position: relative;
+}
+h1 {
+text-align: center;
+font-family: "Courier New", Monospace;
+color: rgba(50,50,255,1);
+}
+h3 {
+text-align: left;
+font-family: "Courier New", Monospace;
+color: rgba(100,50,150,1);
+}
+table {
+border-collapse: collapse;
+}
+table {
+border: 1px solid rgba(150,100,0,1);
+}
+th,td {
+text-align: center;
+padding: 7px;
+border-bottom: 1px solid rgba(100,100,55,1);
+}
+th {
+background-color: #6f6fdc
+}
+h4 {
+text-align: left;
+font-family: "Courier New", Monospace;
+color: dark blue;
+color: rgba(100,100,100,1);
+}
+input[type=text]{
+width: 80%;
+height: 45px;
+border: 2px rgba(0,50,150,1);
+border-radius: 3px;
+font-size: 110%;
+background-color: #9999e6;
+color: black;
+}
+input[type=submit]{
+height: 25px;
+background-color: rgba(0,50,200,1);
+color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color:#adadeb;}
+
+.vanish{
+	background-color:  #9999e6;
+}
