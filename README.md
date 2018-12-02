@@ -18,7 +18,7 @@ the table should have the below features
 
 For mysql login:
 username : root
-password : null
+password : ''
 
 Convert the given excel sheet 'data01.ods' into the table 'words' .
 
